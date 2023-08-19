@@ -1,0 +1,142 @@
+﻿/* Add styles for the whole body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the page title */
+h1 {
+    background-color: darkgrey;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#formPost {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+#formEditPost {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+.post-details {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+    .post-details h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+select {
+    height: 40px;
+    width: 598px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+/* Style for the "Create New Post" button */
+.right-align-btn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 38px;
+    margin-bottom: 10px;
+}
+.center-div {
+    text-align: center;
+}
+.logout-link {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;    
+}
+/* Style for the post list container */
+#postList {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 29px auto;
+    max-width: 1524px;
+}
+
+/* Style for the gridview */
+#gvPosts {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    /* Style for table headers */
+    #gvPosts th {
+        background-color: darkgrey;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Style for even rows */
+    #gvPosts tr:nth-child(even) {
+        background-color: #f2f2f2;
+        height: 40px;
+        text-align: center;
+    }
+    #gvPosts tr:nth-child(odd) {
+        background-color: #f2f2f2;
+        height: 40px;
+        text-align: center;
+    }
+    /* Style for hover effect */
+    #gvPosts tr:hover {
+        background-color: #ddd;
+    }
+
+
